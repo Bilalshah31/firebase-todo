@@ -1,0 +1,57 @@
+body{
+    background-image: url(bck.jpg);
+}
+
+.heading-h1{
+    text-align: center;
+    text-shadow: 3px 2px 3px white;
+}
+
+.todo-btn{
+    margin: 20px;
+    text-align: right;
+}
+
+.list{
+    padding:0px ;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+.list > li{
+    list-style-type: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.list-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        margin: 20px !important;
+        width: 100%;
+        padding: 10px;
+    }
+    .todo-btn{
+        width: 20%;
+        height: 30%;
+        
+        display: flex;       
+         justify-content: space-around;
+
+    }
+    .list-card{
+        display: block;
+        width: 180px;
+    }
+
+    input{
+        width: 80%;
+    }
+    
+}
